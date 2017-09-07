@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var numberCount:Double = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,15 +21,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBOutlet weak var pointsBar: UIProgressView!
-    @IBOutlet weak var pointNumber: UILabel!
     
-    @IBAction func vOneButton(_ sender: Any) {
-        pointNumber.text = "One"
-    }
-    
-      
 }
 

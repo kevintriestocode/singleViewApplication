@@ -14,6 +14,7 @@
 		0A2353D91F1D1701004347D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2353D71F1D1701004347D8 /* LaunchScreen.storyboard */; };
 		0A2353E41F1D1701004347D8 /* singleViewApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2353E31F1D1701004347D8 /* singleViewApplicationTests.swift */; };
 		0A2353EF1F1D1701004347D8 /* singleViewApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2353EE1F1D1701004347D8 /* singleViewApplicationUITests.swift */; };
+		0A9311AB1F61B66800C57C8F /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A9311AA1F61B66800C57C8F /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A2353EA1F1D1701004347D8 /* singleViewApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singleViewApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2353EE1F1D1701004347D8 /* singleViewApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleViewApplicationUITests.swift; sourceTree = "<group>"; };
 		0A2353F01F1D1701004347D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9311AA1F61B66800C57C8F /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0A2353CD1F1D1701004347D8 /* singleViewApplication */ = {
 			isa = PBXGroup;
 			children = (
+				0A9311AA1F61B66800C57C8F /* hustle-on.wav */,
 				0A2353CE1F1D1701004347D8 /* AppDelegate.swift */,
 				0A2353D01F1D1701004347D8 /* ViewController.swift */,
 				0A2353D21F1D1701004347D8 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9311AB1F61B66800C57C8F /* hustle-on.wav in Resources */,
 				0A2353D91F1D1701004347D8 /* LaunchScreen.storyboard in Resources */,
 				0A2353D61F1D1701004347D8 /* Assets.xcassets in Resources */,
 				0A2353D41F1D1701004347D8 /* Main.storyboard in Resources */,
@@ -509,6 +513,7 @@
 				0A2353F51F1D1701004347D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A2353F61F1D1701004347D8 /* Build configuration list for PBXNativeTarget "singleViewApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				0A2353F81F1D1701004347D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A2353F91F1D1701004347D8 /* Build configuration list for PBXNativeTarget "singleViewApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				0A2353FB1F1D1701004347D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

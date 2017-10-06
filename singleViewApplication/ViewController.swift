@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
+        let path = Bundle.main.path(forResource: "robosound", ofType: "wav")!
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         player.play()
         
         UIView.animate(withDuration: 2.3, animations: {
-            self.rocket.frame = CGRect(x: 0, y: 20, width: 320, height: 233)
+            self.rocket.frame = CGRect(x: 0, y: 70, width: 320, height: 556)
         }) { (finished) in
             self.hustleLbl.isHidden = false
             self.onLbl.isHidden = false

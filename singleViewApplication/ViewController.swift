@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
-        let url = URL(fileURLwithPath: path)
+        let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
             player.prepareToPlay()
